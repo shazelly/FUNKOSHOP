@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;900&display=swap');
+*{
+    
+    padding: 0;
+   margin: 0;
+
+   box-sizing: border-box;
+   color:#000000;
+
+ 
+
+
+}
+
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size:62.5% ;
+    color:#1111;
+ }
+
+/*NAV*/
+
+
+ a {
+    text-decoration: none;
+  
+    color:inherit;
+    font-family:inherit;
+    color:aliceblue;
+ } 
+ ul,ol {
+    list-style: none;
+ 
+ }
+ 
+
+
+.navbar-container{
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+  
+}
+.navbar__logo{
+
+   max-width: 300px;
+}
+.navbar__menu{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.navbar__link{
+   font-size:20px;
+   padding: 8px 16px;
+   display: inline-block;
+ transition: background .3s ease-in-out;
+position: relative;
+
+
+}
+
+.navbar__link:hover {
+   background-color:  #FF3333;
+
+
+
+}
+
+
+
+
+/*HEADER*/
+header{
+    width: 1440px;
+     height: 144px;
+     background: #30343F;
+
+}
+/*FORMULARIO INGRESO*/
+
+.form__container{
+    display: flex;
+    flex-direction: column;
+   
+    position:absolute;
+    width: 300px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*con esta propiedad centre el login*/
+
+    
+
+}
+
+
+.login{
+    width: 515px;
+height: 289.13px;
+top: 180px auto;
+left: 462.5px;
+border-radius: 3px;
+
+ }
+
+    .box{
+        display: flex;
+        margin: 15px 1px;
+        gap:10px
+        
+
+    }
+    .box label{
+        flex-basis:80px;
+    }
+    .box input{
+        border:none;
+        background: none;
+        padding-top:20px;
+        border-bottom: 2px solid  #FF3333;
+
+    }
+.box input:after{  /*https://www.youtube.com/watch?v=ISLAOaFDpdg */
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid burlywood;
+    transform: translate(-100%);
+    transition: all 0,3s ease;
+}
+
+.btn{
+    border: none;
+    padding: 6px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all ease 3s;
+    color:antiquewhite;
+    display:inline-block;
+    padding: 7px
+}
+ .btn-box{
+    width: 103px;
+height: 39.06px;
+top: 390.78px;
+left: 583.26px;
+background: #FF3333;
+border:none;
+color: #FFFFFF;
+
+
+
+ }
+ .checkbox label:before{ /*no me esta saliendo */
+    content:'';
+    width: 16.27px;
+    height: 16.27px;
+    top: 402.18px;
+    left: 727.49px;
+    border-radius: 3px;
+    border: 2px;
+    
+ }
+
+.footer-container{
+    width: 1440px;
+    height: 343px;
+    background: #30343F;
+    top:505,13px;
+    position:absolute;
+    bottom: 0;
+    padding:1em;
+    
+}
+.nav-footer{
+    display:flex;
+    justify-content:space-between;
+    padding: 30px;
+    background: #30343F;
+   
+
+}
+
+
+.footer__copy{
+    margin-top: 36px;
+ color: aliceblue;
+ font-family: 'Raleway', sans-serif;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 23px;
+ letter-spacing: 0em;
+ text-align: center;
+
+ 
+ }
