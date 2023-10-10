@@ -1,0 +1,7 @@
+GET envia informacion a traves de url
+POST envia oculto por body
+ACTION es el archivo que maneja el envio
+"INPUT" es generico y no me deja colocarle otros elementos que no sea caracteres
+"NAME" me sirve para identificar los datos que estoy enviando. Nonmbrarlos.
+"SUBMIT" es para enviar inform.
+"BUTTON" sirve por ejemplo para darle funcion con javascrip puedo agregarle otros elementos
